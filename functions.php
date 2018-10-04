@@ -3,10 +3,6 @@
  * theme functions and definitions
  */
 
-if ( ! isset( $content_width ) ) {
-	$content_width = 660;
-}
-
 function my_scripts(){
 	wp_enqueue_style('style', get_stylesheet_uri();
 }
@@ -32,4 +28,3 @@ require get_template_directory() . '/inc/template-tags.php';
  * @since Twenty Fifteen 1.0
  */
 require get_template_directory() . '/inc/customizer.php';
-?>
