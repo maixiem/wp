@@ -1,6 +1,7 @@
 <?php
 /**
  * theme functions and definitions
+  * @package WordPress
  */
 
 function my_scripts(){
