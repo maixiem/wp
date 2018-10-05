@@ -1,2 +1,3 @@
-<?php ?>
+<?php 
+get_header(); ?>
 pleas
